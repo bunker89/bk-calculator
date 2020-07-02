@@ -1,0 +1,30 @@
+{
+	"form": "linked",
+	"is-public": true,
+	"link-data": [
+		{
+			"key": "login",
+			"as": "login"
+		},
+		{
+			"key": "plus",
+			"as": "plus1",
+			"param": {
+				"login": {
+					"user_id_private_field": "user_id_private_field"
+				}
+			}
+		},
+		{
+			"key": "plus",
+			"as": "plus2",
+			"param": {
+				"login": {
+					"user_id_private_field": "user_id_private_field"
+				},"plus1": {
+					"result": "a"
+				}
+			}
+		}
+	]
+}
